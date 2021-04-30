@@ -56,10 +56,10 @@
                                             </p>
                                         </td>
                                         <td class="d-none d-sm-table-cell">
-                                            <button type="button" class="btn btn-primary push" data-toggle="modal" data-target="#modal-block-large1">Cite</button>
+                                            <button type="button" class="btn btn-primary push" data-toggle="modal" data-target="<?php echo '#modal-block-large'.$row['id']; ?>">Cite</button>
                                         </td>
                                         <!-- Large Block Modal -->
-                                        <div class="modal" id="modal-block-large1" tabindex="-1" role="dialog" aria-labelledby="modal-block-large" aria-hidden="true">
+                                        <div class="modal" id="<?php echo 'modal-block-large'.$row['id']; ?>" tabindex="-1" role="dialog" aria-labelledby="modal-block-large" aria-hidden="true">
                                             <div class="modal-dialog modal-lg" role="document">
                                                 <div class="modal-content">
                                                     <div class="block block-themed block-transparent mb-0">
