@@ -75,7 +75,7 @@
                                                             <h3 class="h4">Plain Text</h3>
                                                             <p><?php echo $row['plaintext']; ?></p>
                                                             <h3 class="h4">BibText</h3>
-                                                            <p><?php echo $row['bibtext']; ?></p>
+                                                            <p><pre><?php echo $row['bibtext']; ?></pre></p>
                                                         </div>
                                                         <div class="block-content block-content-full text-right bg-light">
                                                             <button type="button" class="btn btn-sm btn-light" data-dismiss="modal">Close</button>
